@@ -1,0 +1,155 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Tri_DES_DeepPipe_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Tri_DES_DeepPipe
+# 
+# Top level modules:
+# 	Tri_DES_DeepPipe
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SP_box
+# 
+# Top level modules:
+# 	SP_box
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Key_schedule
+# 
+# Top level modules:
+# 	Key_schedule
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Inv_Initial_Permutation
+# 
+# Top level modules:
+# 	Inv_Initial_Permutation
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Initial_Permutation
+# 
+# Top level modules:
+# 	Initial_Permutation
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Expansion
+# 
+# Top level modules:
+# 	Expansion
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DES_deep_round
+# 
+# Top level modules:
+# 	DES_deep_round
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DES_core_DeepPipe
+# 
+# Top level modules:
+# 	DES_core_DeepPipe
+# 
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe {D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_Tri_DES_DeepPipe
+# 
+# Top level modules:
+# 	tb_Tri_DES_DeepPipe
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  tb_Tri_DES_DeepPipe
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_Tri_DES_DeepPipe 
+# Loading work.tb_Tri_DES_DeepPipe
+# Loading work.Tri_DES_DeepPipe
+# Loading work.DES_core_DeepPipe
+# Loading work.Key_schedule
+# Loading work.Initial_Permutation
+# Loading work.Inv_Initial_Permutation
+# Loading work.DES_deep_round
+# Loading work.Expansion
+# Loading work.SP_box
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# =========================================================
+#  tb_Tri_DES_DeepPipe
+#  Interface: valid_in / valid_out
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks lien tiep
+# ---------------------------------------------------------
+#   Output[0] = ef3710901ad7e49b
+#   Output[1] = 1b3ee772ea197a1a
+#   Output[2] = 29418b3110588376
+#   Output[3] = b95cee343542b5fc
+#   Output[4] = 5d31b59b4df23f10
+#   [PASS] Encrypt block 0
+#   [PASS] Encrypt block 1
+#   [PASS] Encrypt block 2
+#   [PASS] Encrypt block 3
+#   [PASS] Encrypt block 4
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks lien tiep
+# ---------------------------------------------------------
+#   Output[0] = 5472756f6e672044
+#   Output[1] = 616920686f632043
+#   Output[2] = 6f6e67204e676865
+#   Output[3] = 2054686f6e672074
+#   Output[4] = 696e060606060606
+#   [PASS] Decrypt block 0
+#   [PASS] Decrypt block 1
+#   [PASS] Decrypt block 2
+#   [PASS] Decrypt block 3
+#   [PASS] Decrypt block 4
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip 1 block
+# ---------------------------------------------------------
+#   [PASS] Round-trip step 1: Encrypt pt[2]
+#          In  = 6f6e67204e676865
+#          Out = 29418b3110588376
+#   [PASS] Round-trip step 2: Decrypt ct[2]
+#          In  = 29418b3110588376
+#          Out = 6f6e67204e676865
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+# ---------------------------------------------------------
+#   Latency do duoc: 149 cycles
+#   Output latency-test = ef3710901ad7e49b
+#   [PASS] Output dung khi do latency
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  PASS : 13 / 13
+#  FAIL : 0 / 13
+#  >> TAT CA PASS - Tri_DES_DeepPipe hoat dong chinh xac!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v(306)
+#    Time: 16440 ns  Iteration: 0  Instance: /tb_Tri_DES_DeepPipe
+# 1
+# Break in Module tb_Tri_DES_DeepPipe at D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v line 306
+# Simulation Breakpoint: 1
+# Break in Module tb_Tri_DES_DeepPipe at D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v line 306
+# MACRO ./Tri_DES_DeepPipe_run_msim_rtl_verilog.do PAUSED at line 24
+# Can't move the Now cursor.

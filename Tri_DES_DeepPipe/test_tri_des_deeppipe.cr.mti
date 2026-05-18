@@ -1,0 +1,99 @@
+D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tri_DES_DeepPipe
+
+Top level modules:
+	Tri_DES_DeepPipe
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Expansion
+
+Top level modules:
+	Expansion
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Inv_Initial_Permutation
+
+Top level modules:
+	Inv_Initial_Permutation
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Key_schedule
+
+Top level modules:
+	Key_schedule
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DES_deep_round
+
+Top level modules:
+	DES_deep_round
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Tri_DES_DeepPipe
+
+Top level modules:
+	tb_Tri_DES_DeepPipe
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/F_function.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/F_function.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module F_function
+
+Top level modules:
+	F_function
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SP_box
+
+Top level modules:
+	SP_box
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.vo {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tri_DES_DeepPipe
+
+Top level modules:
+	Tri_DES_DeepPipe
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_DES_core_DeepPipe.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_DES_core_DeepPipe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_DES_core_DeepPipe
+
+Top level modules:
+	tb_DES_core_DeepPipe
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DES_core_DeepPipe
+
+Top level modules:
+	DES_core_DeepPipe
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/P_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/P_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module P_box
+
+Top level modules:
+	P_box
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Initial_Permutation
+
+Top level modules:
+	Initial_Permutation
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES_DeepPipe/S_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES_DeepPipe/S_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module S_box
+
+Top level modules:
+	S_box
+
+} {} {}}

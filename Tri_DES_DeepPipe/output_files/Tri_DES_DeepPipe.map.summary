@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sun May 17 16:10:53 2026
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Tri_DES_DeepPipe
+Top-level Entity Name : Tri_DES_DeepPipe
+Family : Cyclone II
+Total logic elements : 21,030
+    Total combinational functions : 21,030
+    Dedicated logic registers : 13,590
+Total registers : 13590
+Total pins : 325
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

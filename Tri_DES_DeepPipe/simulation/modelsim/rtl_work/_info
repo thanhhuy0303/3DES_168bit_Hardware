@@ -1,0 +1,194 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UIT\Documents\CE213\Tri_DES_DeepPipe\simulation\modelsim
+vDES_core_DeepPipe
+ICo^I0UiN_=jK;F:beQVnk2
+VWXZD1z;D;3GBfXg1gS50g2
+Z1 dD:\UIT\Documents\CE213\Tri_DES_DeepPipe\simulation\modelsim
+w1778765668
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe -O0
+n@d@e@s_core_@deep@pipe
+!i10b 1
+!s100 0ZM5?5efBlO^ES=i]mI702
+!s85 0
+!s108 1778955522.164000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_core_DeepPipe.v|
+!s101 -O0
+vDES_deep_round
+Id?2`?NdY]PBEF:2o3VW?62
+V`dZndb1h2R5eEOHV6Fke91
+R1
+w1778725276
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@d@e@s_deep_round
+!i10b 1
+!s100 EcWT^VR0k4Q_Zj`kMP>^k2
+!s85 0
+!s108 1778955522.098000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/DES_deep_round.v|
+!s101 -O0
+vExpansion
+I?keYX66>11]FRdSRADiM:0
+V3LX?SmgcBI6aIKK`jh9B>0
+R1
+w1777455699
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@expansion
+!i10b 1
+!s100 C;zDRaVU8@ddz`oPg`AEl3
+!s85 0
+!s108 1778955522.029000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Expansion.v|
+!s101 -O0
+vInitial_Permutation
+ITPfL3LTU61UQ<jWiM9ke;3
+VQX6zN_^zCdBCOkL;8ZbTK2
+R1
+w1777455516
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@initial_@permutation
+!i10b 1
+!s100 zYSZIkO6g>?X6Eboz7dMV1
+!s85 0
+!s108 1778955521.957000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Initial_Permutation.v|
+!s101 -O0
+vInv_Initial_Permutation
+IBhbT6H7Eh93gZ2L0`C]VO3
+VF<74:=VOg<aC9f@dK29CI1
+R1
+w1777455578
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@inv_@initial_@permutation
+!i10b 1
+!s100 Xi42Ta0@FgR:6jdoUk>Ao1
+!s85 0
+!s108 1778955521.886000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Inv_Initial_Permutation.v|
+!s101 -O0
+vKey_schedule
+IX<WYgZ^Je;CWim=eK[^KD0
+V98EYgC;m`0@f60[3>7VTF1
+R1
+w1777528975
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@key_schedule
+!i10b 1
+!s100 d:Bd@h`m<g;CND:CoGFgO2
+!s85 0
+!s108 1778955521.809000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Key_schedule.v|
+!s101 -O0
+vSP_box
+IL_2zfU60zX0=g8:Ik=e550
+VezoL@26jPG]<^c`FM]m:K0
+R1
+w1777526804
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@s@p_box
+!i10b 1
+!s100 2HaI3T2^=4ga81aMPjkk21
+!s85 0
+!s108 1778955521.683000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/SP_box.v|
+!s101 -O0
+vtb_Tri_DES_DeepPipe
+!i10b 1
+!s100 kBnJ4L;D@IC8WDA81Pj:X1
+IWQDAEKZDDKdeh]h_<]ggN1
+V2BaS0T@1oNM2NU[n5I0=R3
+R1
+w1778953977
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1778955522.235000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/tb_Tri_DES_DeepPipe.v|
+!s101 -O0
+R3
+R4
+ntb_@tri_@d@e@s_@deep@pipe
+vTri_DES_DeepPipe
+I4hBWSi<c?F^Bd?9]Og]KQ2
+VejjOUAk=Z<TDk2:P@B2>b2
+R1
+w1778864193
+8D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v
+FD:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v
+L0 1
+R2
+r1
+31
+R3
+n@tri_@d@e@s_@deep@pipe
+R4
+!i10b 1
+!s100 LiLJN2FaDNdiM46cM=@kG1
+!s85 0
+!s108 1778955521.603000
+!s107 D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES_DeepPipe|D:/UIT/Documents/CE213/Tri_DES_DeepPipe/Tri_DES_DeepPipe.v|
+!s101 -O0
