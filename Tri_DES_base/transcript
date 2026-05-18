@@ -1,0 +1,618 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# OpenFile D:/UIT/Documents/CE213/Tri_DES_base/test_tri_des_base.mpf 
+# Loading project test_tri_des_base
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# Loading timing data from Tri_DES_base_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Tri_DES_base File: D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v
+add wave -position insertpoint sim:/tb_Tri_DES_base/*
+run -all
+# 
+# =========================================================
+#  tb_Tri_DES_base
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks
+#  Chuoi: 'Truong Dai hoc Cong Nghe Thong tin' + PKCS7
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:107661 ps, datain:107716 ps, 266 ps );
+#    Time: 107716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:107668 ps, sdata:107870 ps, 266 ps );
+#    Time: 107870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 0: 'Truong D'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:3177668 ps, sdata:3177870 ps, 266 ps );
+#    Time: 3177870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 1: 'ai hoc C'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:6247661 ps, datain:6247716 ps, 266 ps );
+#    Time: 6247716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:6247668 ps, sdata:6247870 ps, 266 ps );
+#    Time: 6247870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 2: 'ong Nghe'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:9317661 ps, datain:9317716 ps, 266 ps );
+#    Time: 9317716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:9317668 ps, sdata:9317870 ps, 266 ps );
+#    Time: 9317870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 3: ' Thong t'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:12387661 ps, datain:12387716 ps, 266 ps );
+#    Time: 12387716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:12387668 ps, sdata:12387870 ps, 266 ps );
+#    Time: 12387870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 4: 'in'+PKCS7(0x06 x6) 
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks -> verify plaintext goc
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:15457661 ps, datain:15457716 ps, 266 ps );
+#    Time: 15457716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:15457668 ps, sdata:15457870 ps, 266 ps );
+#    Time: 15457870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 0 -> 'Truong D'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:18527661 ps, datain:18527716 ps, 266 ps );
+#    Time: 18527716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:18527668 ps, sdata:18527870 ps, 266 ps );
+#    Time: 18527870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 1 -> 'ai hoc C'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:21597661 ps, datain:21597716 ps, 266 ps );
+#    Time: 21597716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:21597668 ps, sdata:21597870 ps, 266 ps );
+#    Time: 21597870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 2 -> 'ong Nghe'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:24667661 ps, datain:24667716 ps, 266 ps );
+#    Time: 24667716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:24667668 ps, sdata:24667870 ps, 266 ps );
+#    Time: 24667870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 3 -> ' Thong t'          
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:27737661 ps, datain:27737716 ps, 266 ps );
+#    Time: 27737716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:27737668 ps, sdata:27737870 ps, 266 ps );
+#    Time: 27737870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 4 -> 'in'+PKCS7(0x06 x6) 
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip (Enc -> Dec -> ra PT goc)
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:30807661 ps, datain:30807716 ps, 266 ps );
+#    Time: 30807716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:30807668 ps, sdata:30807870 ps, 266 ps );
+#    Time: 30807870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] Enc block 2 'ong Nghe'   
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:33877661 ps, datain:33877716 ps, 266 ps );
+#    Time: 33877716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:33877668 ps, sdata:33877870 ps, 266 ps );
+#    Time: 33877870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] Dec block 2 -> 'ong Nghe'
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+#  Ly thuyet: 3 x 16 cycles = 48 cycles / block 3DES
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:36927685 ps, datain:36927725 ps, 266 ps );
+#    Time: 36927725 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des2|running 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:36997661 ps, datain:36997716 ps, 266 ps );
+#    Time: 36997716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:36997668 ps, sdata:36997870 ps, 266 ps );
+#    Time: 36997870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   Latency do duoc: 300 cycles
+#   [WARN] 300 cycles - kiem tra lai
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  PASS : 0 / 12
+#  FAIL : 12 / 12
+#  >> Con 12 FAIL - Can debug!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(194)
+#    Time: 40086 ns  Iteration: 0  Instance: /tb_Tri_DES_base
+# 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 194
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+quit -sim
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# ** Error: (vsim-3043) D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(247): Unresolved reference to 'tb_Tri_DES_base_post'.
+# 
+#         Region: /tb_Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# Error loading design
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 2 compiles, 0 failed with no errors. 
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# ** Error: (vsim-3043) D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(246): Unresolved reference to 'tb_Tri_DES_base_post'.
+# 
+#         Region: /tb_Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# Error loading design
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# Loading timing data from Tri_DES_base_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Tri_DES_base File: D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v
+add wave -position insertpoint sim:/tb_Tri_DES_base/*
+run -all
+# 
+# =========================================================
+#  tb_Tri_DES_base_post
+#  Clock period      = 10 ns
+#  Sample delay      = 2 ns after posedge
+#  Expected latency  = 50 cycles
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:107661 ps, datain:107716 ps, 266 ps );
+#    Time: 107716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:107668 ps, sdata:107870 ps, 266 ps );
+#    Time: 107870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 0: 'Truong D'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:1367668 ps, sdata:1367870 ps, 266 ps );
+#    Time: 1367870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 1: 'ai hoc C'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:2627661 ps, datain:2627716 ps, 266 ps );
+#    Time: 2627716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:2627668 ps, sdata:2627870 ps, 266 ps );
+#    Time: 2627870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 2: 'ong Nghe'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:3887661 ps, datain:3887716 ps, 266 ps );
+#    Time: 3887716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:3887668 ps, sdata:3887870 ps, 266 ps );
+#    Time: 3887870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 3: ' Thong t'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:5147661 ps, datain:5147716 ps, 266 ps );
+#    Time: 5147716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:5147668 ps, sdata:5147870 ps, 266 ps );
+#    Time: 5147870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] nc Block 4: 'in'+PKCS7(0x06 x6) 
+#             done did not pulse within 120 cycles
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:6407661 ps, datain:6407716 ps, 266 ps );
+#    Time: 6407716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:6407668 ps, sdata:6407870 ps, 266 ps );
+#    Time: 6407870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 0 -> 'Truong D'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:7667661 ps, datain:7667716 ps, 266 ps );
+#    Time: 7667716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:7667668 ps, sdata:7667870 ps, 266 ps );
+#    Time: 7667870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 1 -> 'ai hoc C'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:8927661 ps, datain:8927716 ps, 266 ps );
+#    Time: 8927716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:8927668 ps, sdata:8927870 ps, 266 ps );
+#    Time: 8927870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 2 -> 'ong Nghe'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:10187661 ps, datain:10187716 ps, 266 ps );
+#    Time: 10187716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:10187668 ps, sdata:10187870 ps, 266 ps );
+#    Time: 10187870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 3 -> ' Thong t'          
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:11447661 ps, datain:11447716 ps, 266 ps );
+#    Time: 11447716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:11447668 ps, sdata:11447870 ps, 266 ps );
+#    Time: 11447870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT]  Block 4 -> 'in'+PKCS7(0x06 x6) 
+#             done did not pulse within 120 cycles
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip representative block
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:12707661 ps, datain:12707716 ps, 266 ps );
+#    Time: 12707716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:12707668 ps, sdata:12707870 ps, 266 ps );
+#    Time: 12707870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] Enc block 2 'ong Nghe'   
+#             done did not pulse within 120 cycles
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:13967661 ps, datain:13967716 ps, 266 ps );
+#    Time: 13967716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:13967668 ps, sdata:13967870 ps, 266 ps );
+#    Time: 13967870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [TIMEOUT] Dec block 2 -> 'ong Nghe'
+#             done did not pulse within 120 cycles
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+#  Formula: 16 + 1 + 16 + 1 + 16 = 50 cycles
+# ---------------------------------------------------------
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5351): $hold( posedge clk &&& nosloadsclr:15227661 ps, datain:15227716 ps, 266 ps );
+#    Time: 15227716 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|R[29] 
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/../altera/verilog/src/cycloneii_atoms.v(5354): $hold( posedge clk &&& sloaddata:15227668 ps, sdata:15227870 ps, 266 ps );
+#    Time: 15227870 ps  Iteration: 0  Instance: /tb_Tri_DES_base/uut/\des1|done 
+#   [FAIL] Latency: TIMEOUT, no done pulse within 120 cycles
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  FUNCTION PASS : 0 / 12
+#  FUNCTION FAIL : 12 / 12
+#  LATENCY  PASS : 0 / 1
+#  LATENCY  FAIL : 1 / 1
+#  >> Con 12 test chuc nang FAIL - can debug!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(235)
+#    Time: 16560 ns  Iteration: 0  Instance: /tb_Tri_DES_base
+# 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 235
+quit -sim
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# Loading timing data from Tri_DES_base_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Tri_DES_base File: D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v
+add wave -position insertpoint sim:/tb_Tri_DES_base/*
+run -all
+# 
+# =========================================================
+#  tb_Tri_DES_base
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks
+#  Chuoi: 'Truong Dai hoc Cong Nghe Thong tin' + PKCS7
+# ---------------------------------------------------------
+#   [PASS] nc Block 0: 'Truong D'          
+#          mode=1  PT =5472756f6e672044
+#                    CT =ef3710901ad7e49b
+#   [PASS] nc Block 1: 'ai hoc C'          
+#          mode=1  PT =616920686f632043
+#                    CT =1b3ee772ea197a1a
+#   [PASS] nc Block 2: 'ong Nghe'          
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] nc Block 3: ' Thong t'          
+#          mode=1  PT =2054686f6e672074
+#                    CT =b95cee343542b5fc
+#   [PASS] nc Block 4: 'in'+PKCS7(0x06 x6) 
+#          mode=1  PT =696e060606060606
+#                    CT =5d31b59b4df23f10
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks -> verify plaintext goc
+# ---------------------------------------------------------
+#   [PASS]  Block 0 -> 'Truong D'          
+#          mode=0  PT =ef3710901ad7e49b
+#                    CT =5472756f6e672044
+#   [PASS]  Block 1 -> 'ai hoc C'          
+#          mode=0  PT =1b3ee772ea197a1a
+#                    CT =616920686f632043
+#   [PASS]  Block 2 -> 'ong Nghe'          
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+#   [PASS]  Block 3 -> ' Thong t'          
+#          mode=0  PT =b95cee343542b5fc
+#                    CT =2054686f6e672074
+#   [PASS]  Block 4 -> 'in'+PKCS7(0x06 x6) 
+#          mode=0  PT =5d31b59b4df23f10
+#                    CT =696e060606060606
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip (Enc -> Dec -> ra PT goc)
+# ---------------------------------------------------------
+#   [PASS] Enc block 2 'ong Nghe'   
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] Dec block 2 -> 'ong Nghe'
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+#  Ly thuyet: 3 x 16 + 2 bubble cycles = 50 cycles / block 3DES
+# ---------------------------------------------------------
+#   Latency do duoc: 51 cycles
+#   [PASS] Nam trong nguong cho phep (<= 55 cycles)
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  PASS : 12 / 12
+#  FAIL : 0 / 12
+#  >> TAT CA PASS - Tri_DES_base hoat dong chinh xac!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(194)
+#    Time: 15331 ns  Iteration: 0  Instance: /tb_Tri_DES_base
+# 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 194
+quit -sim
+# Compile of DES_core_base.v was successful.
+# Compile of Expansion.v was successful.
+# Compile of F_function.v was successful.
+# Compile of Initial_Permutation.v was successful.
+# Compile of Inv_Initial_Permutation.v was successful.
+# Compile of Key_schedule.v was successful.
+# Compile of P_box.v was successful.
+# Compile of S_box.v was successful.
+# Compile of SP_box.v was successful.
+# Compile of tb_DES_core_base.v was successful.
+# Compile of tb_Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.v was successful.
+# Compile of Tri_DES_base.vo was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base
+# vsim -L C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii -gui work.tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_comb
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_lcell_ff
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux21
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_dffe
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_asynch_io
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_clkctrl
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_mux41
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from Tri_DES_base_v.sdo
+# Loading C:/altera/13.0sp1/modelsim_ase/altera/verilog/cycloneii.CYCLONEII_PRIM_DFFE
+# ** Warning: Design size of 2 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# Loading timing data from Tri_DES_base_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Tri_DES_base File: D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v
+add wave -position insertpoint sim:/tb_Tri_DES_base/*
+run -all
+# 
+# =========================================================
+#  tb_Tri_DES_base
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks
+#  Chuoi: 'Truong Dai hoc Cong Nghe Thong tin' + PKCS7
+# ---------------------------------------------------------
+#   [PASS] nc Block 0: 'Truong D'          
+#          mode=1  PT =5472756f6e672044
+#                    CT =ef3710901ad7e49b
+#   [PASS] nc Block 1: 'ai hoc C'          
+#          mode=1  PT =616920686f632043
+#                    CT =1b3ee772ea197a1a
+#   [PASS] nc Block 2: 'ong Nghe'          
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] nc Block 3: ' Thong t'          
+#          mode=1  PT =2054686f6e672074
+#                    CT =b95cee343542b5fc
+#   [PASS] nc Block 4: 'in'+PKCS7(0x06 x6) 
+#          mode=1  PT =696e060606060606
+#                    CT =5d31b59b4df23f10
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks -> verify plaintext goc
+# ---------------------------------------------------------
+#   [PASS]  Block 0 -> 'Truong D'          
+#          mode=0  PT =ef3710901ad7e49b
+#                    CT =5472756f6e672044
+#   [PASS]  Block 1 -> 'ai hoc C'          
+#          mode=0  PT =1b3ee772ea197a1a
+#                    CT =616920686f632043
+#   [PASS]  Block 2 -> 'ong Nghe'          
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+#   [PASS]  Block 3 -> ' Thong t'          
+#          mode=0  PT =b95cee343542b5fc
+#                    CT =2054686f6e672074
+#   [PASS]  Block 4 -> 'in'+PKCS7(0x06 x6) 
+#          mode=0  PT =5d31b59b4df23f10
+#                    CT =696e060606060606
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip (Enc -> Dec -> ra PT goc)
+# ---------------------------------------------------------
+#   [PASS] Enc block 2 'ong Nghe'   
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] Dec block 2 -> 'ong Nghe'
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+#  Ly thuyet: 3 x 16 + 2 bubble cycles = 50 cycles / block 3DES
+# ---------------------------------------------------------
+#   Latency do duoc: 50 cycles
+#   [PASS] Nam trong nguong cho phep (<= 55 cycles)
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  PASS : 12 / 12
+#  FAIL : 0 / 12
+#  >> TAT CA PASS - Tri_DES_base hoat dong chinh xac!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(194)
+#    Time: 15320 ns  Iteration: 0  Instance: /tb_Tri_DES_base
+# 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 194

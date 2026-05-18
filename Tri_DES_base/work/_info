@@ -1,0 +1,245 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UIT\Documents\CE213\Lab2\Median_filter
+vDES_core_base
+Z1 !s100 Q`j3EJK1n?zjiE`YZmeA;0
+Z2 IhF>;3Q;3=;0KJfbGmRe^83
+Z3 VNSd[U;fWPWK1]WibzIR==3
+Z4 dD:\UIT\Documents\CE213\Tri_DES_base
+Z5 w1778945581
+Z6 8D:/UIT/Documents/CE213/Tri_DES_base/DES_core_base.v
+Z7 FD:/UIT/Documents/CE213/Tri_DES_base/DES_core_base.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/DES_core_base.v|
+Z10 o-work work -O0
+Z11 n@d@e@s_core_base
+Z12 !s108 1778949551.189000
+Z13 !s107 D:/UIT/Documents/CE213/Tri_DES_base/DES_core_base.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vExpansion
+Z14 !s100 @7:QL:05J7A:X?cEmCn^L2
+Z15 IPmT121_I2@16lcE@7=oLM2
+Z16 V3LX?SmgcBI6aIKK`jh9B>0
+R4
+Z17 w1777455699
+Z18 8D:/UIT/Documents/CE213/Tri_DES_base/Expansion.v
+Z19 FD:/UIT/Documents/CE213/Tri_DES_base/Expansion.v
+L0 1
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/Expansion.v|
+R10
+Z21 n@expansion
+Z22 !s108 1778949551.258000
+Z23 !s107 D:/UIT/Documents/CE213/Tri_DES_base/Expansion.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vF_function
+Z24 !s100 LXz9?=Xdb;jieE4GZ@^KC0
+Z25 Ik]8597S9]eEnH=jgmWQ<Q2
+Z26 V2bN5G>bZW8fE=H=HnhQ4D0
+R4
+Z27 w1777544220
+Z28 8D:/UIT/Documents/CE213/Tri_DES_base/F_function.v
+Z29 FD:/UIT/Documents/CE213/Tri_DES_base/F_function.v
+L0 1
+R8
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/F_function.v|
+R10
+Z31 n@f_function
+Z32 !s108 1778949551.326000
+Z33 !s107 D:/UIT/Documents/CE213/Tri_DES_base/F_function.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vInitial_Permutation
+Z34 !s100 i44dl=>6M1<DR<dJQ`o::0
+Z35 INHGE4eHnZIX`G2cLRhdHR2
+Z36 VQX6zN_^zCdBCOkL;8ZbTK2
+R4
+Z37 w1777455516
+Z38 8D:/UIT/Documents/CE213/Tri_DES_base/Initial_Permutation.v
+Z39 FD:/UIT/Documents/CE213/Tri_DES_base/Initial_Permutation.v
+L0 1
+R8
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/Initial_Permutation.v|
+R10
+Z41 n@initial_@permutation
+Z42 !s108 1778949551.398000
+Z43 !s107 D:/UIT/Documents/CE213/Tri_DES_base/Initial_Permutation.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vInv_Initial_Permutation
+Z44 !s100 1=[Jn3Z^dBj=@L[Lho=mj2
+Z45 I:ic]zPRoR<G<a<61IlVj81
+Z46 VF<74:=VOg<aC9f@dK29CI1
+R4
+Z47 w1777455578
+Z48 8D:/UIT/Documents/CE213/Tri_DES_base/Inv_Initial_Permutation.v
+Z49 FD:/UIT/Documents/CE213/Tri_DES_base/Inv_Initial_Permutation.v
+L0 1
+R8
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/Inv_Initial_Permutation.v|
+R10
+Z51 n@inv_@initial_@permutation
+Z52 !s108 1778949551.466000
+Z53 !s107 D:/UIT/Documents/CE213/Tri_DES_base/Inv_Initial_Permutation.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vKey_schedule
+Z54 !s100 1akZB1=_f<_mCN?UBn>I;2
+Z55 I]T1cAJRR8?mdkk21Yj8@a2
+Z56 V98EYgC;m`0@f60[3>7VTF1
+R4
+Z57 w1777528975
+Z58 8D:/UIT/Documents/CE213/Tri_DES_base/Key_schedule.v
+Z59 FD:/UIT/Documents/CE213/Tri_DES_base/Key_schedule.v
+L0 1
+R8
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/Key_schedule.v|
+R10
+Z61 n@key_schedule
+Z62 !s108 1778949551.538000
+Z63 !s107 D:/UIT/Documents/CE213/Tri_DES_base/Key_schedule.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vP_box
+Z64 !s100 RZOT`6GdH:;bOfDmUcbah3
+Z65 INK2Q:4Zj<cW=`QH7lbibK1
+Z66 VG`3;goOz:1BR[gT^O@WnI1
+R4
+Z67 w1777287119
+Z68 8D:/UIT/Documents/CE213/Tri_DES_base/P_box.v
+Z69 FD:/UIT/Documents/CE213/Tri_DES_base/P_box.v
+L0 1
+R8
+r1
+31
+Z70 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/P_box.v|
+R10
+Z71 n@p_box
+Z72 !s108 1778949551.614000
+Z73 !s107 D:/UIT/Documents/CE213/Tri_DES_base/P_box.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vS_box
+Z74 !s100 G[CNO8XGL@F@^G`TN>6L22
+Z75 IQJ:<LV9QWDHHk^Yc3j;U]0
+Z76 VfQ2Y8cOU@m`Y[Lm05l2:80
+R4
+Z77 w1777285807
+Z78 8D:/UIT/Documents/CE213/Tri_DES_base/S_box.v
+Z79 FD:/UIT/Documents/CE213/Tri_DES_base/S_box.v
+L0 1
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/S_box.v|
+R10
+Z81 n@s_box
+Z82 !s108 1778949551.684000
+Z83 !s107 D:/UIT/Documents/CE213/Tri_DES_base/S_box.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSP_box
+Z84 !s100 fcF]IJXTF@X`7zj8d8FRf1
+Z85 IlEScP9YQJ_WE6ae3U;d8O0
+Z86 VezoL@26jPG]<^c`FM]m:K0
+R4
+Z87 w1777526804
+Z88 8D:/UIT/Documents/CE213/Tri_DES_base/SP_box.v
+Z89 FD:/UIT/Documents/CE213/Tri_DES_base/SP_box.v
+L0 1
+R8
+r1
+31
+Z90 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/SP_box.v|
+R10
+Z91 n@s@p_box
+Z92 !s108 1778949551.761000
+Z93 !s107 D:/UIT/Documents/CE213/Tri_DES_base/SP_box.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_DES_core_base
+Z94 !s100 F13APPd_XTA4<HkFSlEfW3
+Z95 ILMmeUKHU]SO=W4N3i^h=@0
+Z96 VEYgY@Cd?>>`H24z3;XIme3
+R4
+Z97 w1778939310
+Z98 8D:/UIT/Documents/CE213/Tri_DES_base/tb_DES_core_base.v
+Z99 FD:/UIT/Documents/CE213/Tri_DES_base/tb_DES_core_base.v
+L0 3
+R8
+r1
+31
+Z100 !s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/tb_DES_core_base.v|
+R10
+Z101 ntb_@d@e@s_core_base
+Z102 !s108 1778949551.839000
+Z103 !s107 D:/UIT/Documents/CE213/Tri_DES_base/tb_DES_core_base.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_Tri_DES_base
+Z104 I`J9lYQ9JRadH?1MT<P4U03
+Z105 V3ccV:7a;<j_FG52HU`o003
+R4
+Z106 w1778949454
+Z107 8D:\UIT\Documents\CE213\Tri_DES_base\tb_Tri_DES_base.v
+Z108 FD:\UIT\Documents\CE213\Tri_DES_base\tb_Tri_DES_base.v
+L0 3
+R8
+r1
+31
+Z109 !s90 -reportprogress|300|-work|work|D:\UIT\Documents\CE213\Tri_DES_base\tb_Tri_DES_base.v|
+R10
+Z110 ntb_@tri_@d@e@s_base
+Z111 !s100 3Jj[d<5]EmcP9H<Ffz6VC2
+Z112 !s108 1778949551.914000
+Z113 !s107 D:\UIT\Documents\CE213\Tri_DES_base\tb_Tri_DES_base.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTri_DES_base
+!i10b 1
+!s100 Q2ab`j53dfW@E?7`m690=1
+II3[zdk71d3_db9Baf8[zn2
+Z114 V83gzQ>6n05AQl3c<T]SZb2
+R4
+w1778949512
+8D:/UIT/Documents/CE213/Tri_DES_base/Tri_DES_base.vo
+FD:/UIT/Documents/CE213/Tri_DES_base/Tri_DES_base.vo
+L0 31
+R8
+r1
+!s85 0
+31
+!s108 1778949552.075000
+!s107 D:/UIT/Documents/CE213/Tri_DES_base/Tri_DES_base.vo|
+!s90 -reportprogress|300|-work|work|D:/UIT/Documents/CE213/Tri_DES_base/Tri_DES_base.vo|
+!s101 -O0
+R10
+Z115 n@tri_@d@e@s_base

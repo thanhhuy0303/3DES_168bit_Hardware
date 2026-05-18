@@ -1,0 +1,60 @@
+module Tri_DES (
+    input              clk, start, rst,
+    input              mode, 
+    input      [63:0]  plaintext,
+    input      [63:0]  key_1,
+    input      [63:0]  key_2,
+    input      [63:0]  key_3,
+    output	           done,
+    output     [63:0]  ciphertext
+);
+
+wire [63:0] T1;
+wire [63:0] T2;
+
+wire done_1;
+wire done_2;
+
+wire mode_1 = mode ? 1'b1 : 1'b0;
+wire mode_2 = mode ? 1'b0 : 1'b1;
+wire mode_3 = mode ? 1'b1 : 1'b0;
+
+wire [63:0] k1 = mode ? key_1 : key_3;
+wire [63:0] k2 = key_2;
+wire [63:0] k3 = mode ? key_3 : key_1;
+
+DES_core_base des1 (
+    .clk(clk),
+    .start(start),
+    .rst(rst),
+    .mode(mode_1), // Encrypt
+    .plaintext(plaintext),
+    .key(k1),
+    .done(done_1),
+    .ciphertext(T1)
+);
+
+DES_core_base des2 (
+    .clk(clk),
+    .start(done_1),
+    .rst(rst),
+    .mode(mode_2), // Decrypt
+    .plaintext(T1),
+    .key(k2),
+    .done(done_2),
+    .ciphertext(T2)
+);
+
+DES_core_base des3 (
+    .clk(clk),
+    .start(done_2),
+    .rst(rst),
+    .mode(mode_3), // Encrypt
+    .plaintext(T2),
+    .key(k3),
+    .done(done),
+    .ciphertext(ciphertext)
+);
+
+
+endmodule

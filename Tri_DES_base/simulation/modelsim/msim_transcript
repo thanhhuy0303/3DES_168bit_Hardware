@@ -1,0 +1,165 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Tri_DES_base_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/Tri_DES_base.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Tri_DES_base
+# 
+# Top level modules:
+# 	Tri_DES_base
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/S_box.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module S_box
+# 
+# Top level modules:
+# 	S_box
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/P_box.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module P_box
+# 
+# Top level modules:
+# 	P_box
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/Key_schedule.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Key_schedule
+# 
+# Top level modules:
+# 	Key_schedule
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/Inv_Initial_Permutation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Inv_Initial_Permutation
+# 
+# Top level modules:
+# 	Inv_Initial_Permutation
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/Initial_Permutation.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Initial_Permutation
+# 
+# Top level modules:
+# 	Initial_Permutation
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/Expansion.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Expansion
+# 
+# Top level modules:
+# 	Expansion
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/DES_core_base.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module DES_core_base
+# 
+# Top level modules:
+# 	DES_core_base
+# 
+# vlog -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES_base {D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_Tri_DES_base
+# 
+# Top level modules:
+# 	tb_Tri_DES_base
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  tb_Tri_DES_base
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps tb_Tri_DES_base 
+# Loading work.tb_Tri_DES_base
+# Loading work.Tri_DES_base
+# Loading work.DES_core_base
+# Loading work.Initial_Permutation
+# Loading work.Key_schedule
+# Loading work.Expansion
+# Loading work.S_box
+# Loading work.P_box
+# Loading work.Inv_Initial_Permutation
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# =========================================================
+#  tb_Tri_DES_base
+#  Key_1=133457799bbcdff1
+#  Key_2=aabbccddeeff0011
+#  Key_3=0f1e2d3c4b5a6978
+# =========================================================
+# 
+# ---------------------------------------------------------
+#  TEST 1: Encrypt 5 blocks
+#  Chuoi: 'Truong Dai hoc Cong Nghe Thong tin' + PKCS7
+# ---------------------------------------------------------
+#   [PASS] nc Block 0: 'Truong D'          
+#          mode=1  PT =5472756f6e672044
+#                    CT =ef3710901ad7e49b
+#   [PASS] nc Block 1: 'ai hoc C'          
+#          mode=1  PT =616920686f632043
+#                    CT =1b3ee772ea197a1a
+#   [PASS] nc Block 2: 'ong Nghe'          
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] nc Block 3: ' Thong t'          
+#          mode=1  PT =2054686f6e672074
+#                    CT =b95cee343542b5fc
+#   [PASS] nc Block 4: 'in'+PKCS7(0x06 x6) 
+#          mode=1  PT =696e060606060606
+#                    CT =5d31b59b4df23f10
+# 
+# ---------------------------------------------------------
+#  TEST 2: Decrypt 5 blocks -> verify plaintext goc
+# ---------------------------------------------------------
+#   [PASS]  Block 0 -> 'Truong D'          
+#          mode=0  PT =ef3710901ad7e49b
+#                    CT =5472756f6e672044
+#   [PASS]  Block 1 -> 'ai hoc C'          
+#          mode=0  PT =1b3ee772ea197a1a
+#                    CT =616920686f632043
+#   [PASS]  Block 2 -> 'ong Nghe'          
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+#   [PASS]  Block 3 -> ' Thong t'          
+#          mode=0  PT =b95cee343542b5fc
+#                    CT =2054686f6e672074
+#   [PASS]  Block 4 -> 'in'+PKCS7(0x06 x6) 
+#          mode=0  PT =5d31b59b4df23f10
+#                    CT =696e060606060606
+# 
+# ---------------------------------------------------------
+#  TEST 3: Round-trip (Enc -> Dec -> ra PT goc)
+# ---------------------------------------------------------
+#   [PASS] Enc block 2 'ong Nghe'   
+#          mode=1  PT =6f6e67204e676865
+#                    CT =29418b3110588376
+#   [PASS] Dec block 2 -> 'ong Nghe'
+#          mode=0  PT =29418b3110588376
+#                    CT =6f6e67204e676865
+# 
+# ---------------------------------------------------------
+#  TEST 4: Latency measurement
+#  Ly thuyet: 3 x 16 cycles = 48 cycles / block 3DES
+# ---------------------------------------------------------
+#   Latency do duoc: 50 cycles
+#   [PASS] Nam trong nguong cho phep (<= 55 cycles)
+# 
+# =========================================================
+#  KET QUA TONG HOP
+# =========================================================
+#  PASS : 12 / 12
+#  FAIL : 0 / 12
+#  >> TAT CA PASS - Tri_DES_base hoat dong chinh xac!
+# =========================================================
+# ** Note: $finish    : D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v(194)
+#    Time: 7586 ns  Iteration: 0  Instance: /tb_Tri_DES_base
+# 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 194
+# Simulation Breakpoint: 1
+# Break in Module tb_Tri_DES_base at D:/UIT/Documents/CE213/Tri_DES_base/tb_Tri_DES_base.v line 194
+# MACRO ./Tri_DES_base_run_msim_rtl_verilog.do PAUSED at line 24
+quit -sim
