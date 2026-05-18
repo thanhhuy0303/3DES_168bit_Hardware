@@ -1,0 +1,173 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\UIT\Documents\CE213\Tri_DES\simulation\modelsim
+vDES_core
+IYOiB7g8]OdPOB`edAeKMi2
+V[fKYdl=0eE[aR:hi3LcRO0
+Z1 dD:\UIT\Documents\CE213\Tri_DES\simulation\modelsim
+w1778864749
+8D:/UIT/Documents/CE213/Tri_DES/DES_core.v
+FD:/UIT/Documents/CE213/Tri_DES/DES_core.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/UIT/Documents/CE213/Tri_DES -O0
+n@d@e@s_core
+!i10b 1
+!s100 :DFGF`j<fm8IW>YNIi9Pm3
+!s85 0
+!s108 1778954708.645000
+!s107 D:/UIT/Documents/CE213/Tri_DES/DES_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/DES_core.v|
+!s101 -O0
+vExpansion
+IMMR0Q;O[ZUHP5OKGB;kdd2
+V3LX?SmgcBI6aIKK`jh9B>0
+R1
+w1777455699
+8D:/UIT/Documents/CE213/Tri_DES/Expansion.v
+FD:/UIT/Documents/CE213/Tri_DES/Expansion.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@expansion
+!i10b 1
+!s100 gc3J3dN3b25SdON5O]9mD0
+!s85 0
+!s108 1778954708.570000
+!s107 D:/UIT/Documents/CE213/Tri_DES/Expansion.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/Expansion.v|
+!s101 -O0
+vInitial_Permutation
+IaDClC4b5FmTd^f@57SO_D1
+VQX6zN_^zCdBCOkL;8ZbTK2
+R1
+w1777455516
+8D:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v
+FD:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@initial_@permutation
+!i10b 1
+!s100 8HZoMV?O6]STEFBVgF`1j3
+!s85 0
+!s108 1778954708.491000
+!s107 D:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v|
+!s101 -O0
+vInv_Initial_Permutation
+IUhiHhFa;O;CCdfT>@bg`>0
+VF<74:=VOg<aC9f@dK29CI1
+R1
+w1777455578
+8D:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v
+FD:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@inv_@initial_@permutation
+!i10b 1
+!s100 8hSkfjB4OjYj@VYHFCdg32
+!s85 0
+!s108 1778954708.416000
+!s107 D:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v|
+!s101 -O0
+vKey_schedule
+I0=M`PJd5WcSEV]edWG4zS2
+V98EYgC;m`0@f60[3>7VTF1
+R1
+w1777528975
+8D:/UIT/Documents/CE213/Tri_DES/Key_schedule.v
+FD:/UIT/Documents/CE213/Tri_DES/Key_schedule.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@key_schedule
+!i10b 1
+!s100 Td69S>D8Sjo9L7iM]2iX;2
+!s85 0
+!s108 1778954708.332000
+!s107 D:/UIT/Documents/CE213/Tri_DES/Key_schedule.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/Key_schedule.v|
+!s101 -O0
+vSP_box
+IP?9WO5TIMEjK`UMkLibC30
+VezoL@26jPG]<^c`FM]m:K0
+R1
+w1777526804
+8D:/UIT/Documents/CE213/Tri_DES/SP_box.v
+FD:/UIT/Documents/CE213/Tri_DES/SP_box.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@s@p_box
+!i10b 1
+!s100 `o]_7fE]GG78VGb3H?lC]3
+!s85 0
+!s108 1778954708.246000
+!s107 D:/UIT/Documents/CE213/Tri_DES/SP_box.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/SP_box.v|
+!s101 -O0
+vtb_Tri_DES
+!i10b 1
+!s100 o94>HCkH>GRoi8OgJC9mE3
+IZIPL2JOggcfhjBlEHFh>B0
+V_7MgcNZ?HFDdZcWdnHRII0
+R1
+w1778954553
+8D:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v
+FD:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1778954708.728000
+!s107 D:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v|
+!s101 -O0
+R3
+R4
+ntb_@tri_@d@e@s
+vTri_DES
+IFnK6?Ze=adYe^JJ3LU8V81
+V4B9=EdBJT2Old_;go09jm3
+R1
+w1778943691
+8D:/UIT/Documents/CE213/Tri_DES/Tri_DES.v
+FD:/UIT/Documents/CE213/Tri_DES/Tri_DES.v
+L0 1
+R2
+r1
+31
+R3
+n@tri_@d@e@s
+R4
+!i10b 1
+!s100 gZ0Wj[=<=h[XbkmWL9l:N0
+!s85 0
+!s108 1778954708.136000
+!s107 D:/UIT/Documents/CE213/Tri_DES/Tri_DES.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/UIT/Documents/CE213/Tri_DES|D:/UIT/Documents/CE213/Tri_DES/Tri_DES.v|
+!s101 -O0

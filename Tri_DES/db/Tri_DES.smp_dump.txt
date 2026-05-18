@@ -1,0 +1,18 @@
+
+State Machine - |Tri_DES|DES_core:des3|phase
+Name phase.00 phase.10 phase.01 
+phase.00 0 0 0 
+phase.01 1 0 1 
+phase.10 1 1 0 
+
+State Machine - |Tri_DES|DES_core:des2|phase
+Name phase.00 phase.10 phase.01 
+phase.00 0 0 0 
+phase.01 1 0 1 
+phase.10 1 1 0 
+
+State Machine - |Tri_DES|DES_core:des1|phase
+Name phase.00 phase.10 phase.01 
+phase.00 0 0 0 
+phase.01 1 0 1 
+phase.10 1 1 0 

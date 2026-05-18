@@ -1,0 +1,92 @@
+D:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/tb_Tri_DES.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_Tri_DES
+
+Top level modules:
+	tb_Tri_DES
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Tri_DES.vo {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Tri_DES.vo
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tri_DES
+
+Top level modules:
+	Tri_DES
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Key_schedule.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Key_schedule.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Key_schedule
+
+Top level modules:
+	Key_schedule
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/P_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/P_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module P_box
+
+Top level modules:
+	P_box
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Initial_Permutation.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Initial_Permutation
+
+Top level modules:
+	Initial_Permutation
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/tb_DES_core.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/tb_DES_core.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_DES_core
+
+Top level modules:
+	tb_DES_core
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Tri_DES.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Tri_DES.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Tri_DES
+
+Top level modules:
+	Tri_DES
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/F_function.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/F_function.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module F_function
+
+Top level modules:
+	F_function
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/S_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/S_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module S_box
+
+Top level modules:
+	S_box
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/SP_box.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/SP_box.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module SP_box
+
+Top level modules:
+	SP_box
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/DES_core.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/DES_core.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module DES_core
+
+Top level modules:
+	DES_core
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Expansion.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Expansion.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Expansion
+
+Top level modules:
+	Expansion
+
+} {} {}} D:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v {1 {vlog -work work D:/UIT/Documents/CE213/Tri_DES/Inv_Initial_Permutation.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module Inv_Initial_Permutation
+
+Top level modules:
+	Inv_Initial_Permutation
+
+} {} {}}
